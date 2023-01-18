@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavBar = ({ dropDir }) => {
+const NavBar = () => {
 	return (
 		<>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,7 +16,7 @@ const NavBar = ({ dropDir }) => {
 						<li class="nav-item">
 								<a class="nav-link" href="#">Browse all Destinations</a>
 						</li>
-						<li className={`nav-item ${dropDir}`}>
+						<li className="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Browse By Continent
 								</a>
