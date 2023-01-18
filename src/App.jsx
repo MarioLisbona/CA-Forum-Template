@@ -4,6 +4,7 @@ import HeroImage from './components/HeroImage'
 import NavBar from './components/NavBar'
 import PageTitle from './components/PageTitle'
 import PreviewCard from './components/PreviewCard'
+import Row from './components/Row'
 
 const App = () => {
   return (
@@ -16,39 +17,9 @@ const App = () => {
       <body>
         <PageTitle />
         <div class="h-25 cards-container">
-          <div class="row">
-              <div class="col-lg-4 ">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-4 ">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-4 ">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-              <div class="col-lg-4">
-                <PreviewCard />
-              </div>
-          </div>
+          <Row />
+          <Row />
+          <Row />
         </div>
       </body>
     </div>
